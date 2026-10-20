@@ -1,13 +1,13 @@
 services:
   backend:
-    image: ecommerce-bow-backend:v1.0
+    image: elilaura/ecommerce-bow-backend:v1.0
     container_name: ecommerce-backend
     ports:
       - "3000:3000"
     restart: unless-stopped
 
   frontend:
-    image: ecommerce-bow-frontend:v1.0
+    image: elilauraecommerce-bow-frontend:v1.0
     container_name: ecommerce-frontend
     ports:
       - "8080:80"
