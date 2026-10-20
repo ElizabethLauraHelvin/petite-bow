@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
 
   frontend:
-    image: elilauraecommerce-bow-frontend:v1.0
+    image: elilaura/commerce-bow-frontend:v1.0
     container_name: ecommerce-frontend
     ports:
       - "8080:80"
